@@ -1,0 +1,58 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background:mediumseagreen;
+}
+
+
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    max-width:600px;
+    margin:0 auto;
+    height:90vh;
+    margin-top:40px;
+    position:relative;
+    background:seagreen;
+}
+
+#quote{
+    font-weight:normal;
+    color:white;
+    padding:20px;
+    margin:0 3px;
+    align-self:start;
+}
+
+h1{
+    margin-bottom:20px;
+    padding:20px;
+    color:white;
+    border-radius:5px;
+}
+#source{
+    color:white;
+    padding:5px 10px;
+    margin-left:3px;
+    margin-top:3px;
+    align-self:flex-start;
+    font-weight:bold;   
+}
+
+#generate-btn{
+    border:none;
+    padding:15px 20px;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+    background:#f3f3f3;
+}
+
+#generate-btn:hover{
+    background:white;
+}
